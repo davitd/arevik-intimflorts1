@@ -1,0 +1,71 @@
+.location_container {
+    padding: 0 52px;
+}
+.location_box {
+    padding: 0 71px;
+}
+.divider_line {
+    margin: 40px 40px 24px;
+    height: 0;
+    border-top: 1px solid #E5E8EB;
+}
+.location_note {
+    color: #B2B3B5;
+    margin-top: 0;
+    padding-top: 8px;
+}
+
+.location_next_btn{
+    display: flex;
+    justify-content: center;
+    padding: 11px 32px;
+    background: #F76448;
+    border-radius: 16px;
+    border: none;
+    margin: 24px 0 16px;
+    width: -webkit-fill-available;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.location_back_btn{
+    margin: 0 auto;
+    max-width: max-content;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #212B36;
+}
+.location_input {
+    padding: 12px 28px 12px 24px;
+    background: #FFFFFF;
+    border: 1px solid #F76448;
+    border-radius: 16px;
+    width: -webkit-fill-available;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.location_input:focus {
+    outline: none;
+    box-shadow: 0 0 6px 0 rgba(247,100,72,0.5);
+
+}
+.location_input:focus-visible {
+    outline: 1.5px solid #F76448;
+}
+.location_input::placeholder {
+    color: #B2B3B5;
+}
+.search_icon{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    cursor: pointer;
+}

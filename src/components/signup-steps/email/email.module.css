@@ -1,0 +1,67 @@
+.email_container {
+    padding: 0 52px;
+}
+.email_box {
+    padding: 0 71px;
+}
+.email_input{
+    padding: 12px 28px 12px 24px;
+    background: #FFFFFF;
+    border: 1px solid #F76448;
+    border-radius: 16px;
+    width: -webkit-fill-available;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.email_input:focus-visible{
+    outline: 1.5px solid #F76448;
+}
+
+.email_checkbox{
+
+}
+
+.email_checkbox_lbl{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #212B36;
+}
+
+.email_complete_btn{
+    display: flex;
+    justify-content: center;
+    padding: 11px 32px;
+    background: #F76448;
+    border-radius: 16px;
+    border: none;
+    margin: 24px 0 16px;
+    width: -webkit-fill-available;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.email_back_btn {
+    margin: 0 auto;
+    max-width: max-content;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #212B36;
+    cursor: pointer;
+}
+.divider_line{
+    margin: 40px 40px 24px;
+    height: 0;
+    border-top: 1px solid #E5E8EB;
+}
+.green_text{
+   color: #2EC876;
+}

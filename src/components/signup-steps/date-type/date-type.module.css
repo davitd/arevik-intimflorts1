@@ -1,0 +1,37 @@
+.looking_for_container {
+    padding: 0 52px;
+}
+.looking_for_box {
+    padding: 0 71px;
+    margin-bottom: 40px;
+}
+
+.looking_for_btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B2B3B5;
+    border: 1px solid #B2B3B5;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 11px 0;
+    cursor: pointer;
+}
+.looking_for_btn:hover {
+    color: #F76448;
+    border: 1px solid #F76448;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+}
+
+.divider_line {
+    margin: 0 0 24px;
+    height: 0;
+    border-top: 1px solid #E5E8EB;
+}
+.looking_for_btn_active {
+    color: #F76448;
+    border: 1px solid #F76448;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+}
+

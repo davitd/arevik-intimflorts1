@@ -1,0 +1,25 @@
+.question_box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.question_row {
+    display: flex;
+}
+
+.question_text {
+    margin: 0;
+    padding: 10px 32px;
+    background-color: #E5E8EB;
+    color: #212B36;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+
+    border-radius: 0 12px 12px 12px;
+}
+.question_img {
+    margin-right: 16px;
+}
